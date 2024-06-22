@@ -1,0 +1,52 @@
+:root {
+    --blue: #00a9ff;
+    --blue-pucet: #89cff3;
+    --blue-pudar: #a0e9ff;
+    --red: #ec0000;
+}
+* {
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+nav .logo img {
+    width: 50px;
+}
+
+nav .logo {
+    margin-left: 40px;
+}
+
+nav #navigation ul {
+    width: 100%;
+}
+
+nav #navigation ul li {
+    list-style: none;
+    /* margin-right: 50px; */
+}
+
+#navigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+#navigation ul li a i {
+    margin-right: 5px;
+    padding-top: 4px;
+}
+
+nav #navigation {
+    width: 50%;
+    background-color: var(--red);
+}
